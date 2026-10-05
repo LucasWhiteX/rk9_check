@@ -1,0 +1,15 @@
+{
+  "pokemon-gdansk-2027": {
+    "announced": true,
+    "open_sent": true
+  },
+  "pokemon-nice-2027": {
+    "announced": true,
+    "open_sent": true
+  },
+  "pokemon-stuttgart-2027": {
+    "announced": true,
+    "open_sent": true,
+    "opens_at": "2026-09-30T17:00:00+00:00"
+  }
+}
