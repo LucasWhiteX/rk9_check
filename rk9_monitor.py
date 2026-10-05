@@ -151,7 +151,9 @@ def send(webhook: str, content: str, dry_run: bool) -> None:
 def links(ev: dict) -> str:
     out = f"Evento: <{ev['event_url']}>"
     if ev["tcg_url"]:
+        tid = ev["tcg_url"].rstrip("/").split("/tournament/")[-1]
         out += f"\nTCG: <{ev['tcg_url']}>"
+        out += f"\n👉 Inscrição: <{BASE}/register/{tid}>"
     return out
 
 
