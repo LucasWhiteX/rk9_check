@@ -1,6 +1,7 @@
 {
   "pokemon-birmingham-2027": {
-    "announced": true
+    "announced": true,
+    "opens_at": "2026-12-02T06:00:00+00:00"
   },
   "pokemon-gdansk-2027": {
     "announced": true,
